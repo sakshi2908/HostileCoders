@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int odd_even(int a){
+      
+    return a%2;
+    
+}
+
+int  main() {
+    
+    
+    if(odd_even(6)==0){
+        
+  printf("even");
+    }
+    
+    else{
+        
+        printf("odd");
+    }
+ 
+    return 0;
+}
